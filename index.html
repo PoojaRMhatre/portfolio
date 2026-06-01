@@ -1,103 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Pooja Mhatre | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
-    <header>
-        <nav>
-            <h2>Pooja Mhatre</h2>
+    <nav>
+        <h2 class="logo">Pooja Mhatre</h2>
 
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <section class="hero">
-        <h1>Hi, I'm Pooja Mhatre</h1>
-        <h2>Aspiring Web Developer</h2>
-        <p>BE 2026 Student passionate about building modern websites.</p>
 
-        <a href="resume.pdf" download class="btn">
+        <img src="profile.jpeg" alt="Profile Photo" class="profile-img">
+
+        <h1>Pooja Mhatre</h1>
+
+        <h2>Aspiring Web Developer</h2>
+
+        <p>
+            BE Information Technology Student (2026) passionate about building
+            modern and responsive web applications.
+        </p>
+
+        <a href="Pooja Mhatre Resume.pdf" class="btn" download>
             Download Resume
         </a>
+
     </section>
 
     <section id="about">
+
         <h2>About Me</h2>
-        <p>
-            I am a BE student graduating in 2026.
-            I enjoy building responsive websites and learning new technologies.
-        </p>
+
+        <div class="card">
+            <p>
+                I am a B.E. Information Technology student with a strong passion for web development and building impactful digital experiences. I enjoy creating responsive, user-friendly websites using technologies such as HTML, CSS, JavaScript, WordPress, and modern frameworks.
+
+                I am currently working on innovative projects, including a Hybrid Explainable Fake Image Detector System and Roboucreate, while continuously enhancing my skills in full-stack development.
+
+                I am actively seeking internship or entry-level opportunities where I can apply my technical knowledge, contribute to real-world projects, and grow as a web developer.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <div class="card">
+            <h3>Bachelor of Engineering (BE)</h3>
+            <p>Graduation Year: 2026</p>
+            <p>College Name: Konkan Gyanpeeth College of Engineering, Karjat</p>
+        </div>
+
+        <div class="card">
+            <h3>Diploma in Computer Technology</h3>
+            <p>Graduation Year: 2022</p>
+            <p>College Name: Government Polytechnic Pen</p>
+        </div>
+
+        <div class="card">
+            <h3>SSC</h3>
+            <p>Graduation Year: 2019</p>
+            <p>College Name: Baliram Gana Thakur Vidyalaya, Vadhav</p>
+        </div>
+
     </section>
 
     <section id="skills">
+
         <h2>Skills</h2>
 
         <div class="skills-container">
+
             <div class="skill">HTML</div>
             <div class="skill">CSS</div>
             <div class="skill">JavaScript</div>
+            <div class="skill">WordPress</div>
             <div class="skill">React</div>
+            <div class="skill">Node.js</div>
             <div class="skill">Git</div>
+            <div class="skill">GitHub</div>
             <div class="skill">SQL</div>
+            <div class="skill">MongoDB</div>
+
         </div>
+
     </section>
 
     <section id="projects">
+
         <h2>Projects</h2>
 
         <div class="project">
+
             <h3>Portfolio Website</h3>
-            <p>Personal portfolio built using HTML and CSS.</p>
+
+            <p>
+                Personal portfolio website built using HTML and CSS.
+            </p>
+
+            <div class="project-buttons">
+                <a href="#" class="btn">Live Demo</a>
+                <a href="https://github.com/PoojaRMhatre/portfolio" class="btn" target="_blank">GitHub</a>
+            </div>
+
         </div>
 
         <div class="project">
-            <h3>Weather App</h3>
-            <p>Shows live weather using an API.</p>
+
+            <h3>RobouCreate</h3>
+
+            <p>
+                RobouCreate is an India-based online platform offering robotics, electronics, IoT, and DIY components for students, makers, engineers, and innovators.
+            </p>
+
+            <div class="project-buttons">
+                <a href="https://roboucreate.in" class="btn">Live Demo</a>
+                <a href="#" class="btn">GitHub</a>
+            </div>
+
         </div>
 
         <div class="project">
-            <h3>To-Do App</h3>
-            <p>Manage daily tasks efficiently.</p>
+
+            <h3>Gramsanvardh</h3>
+
+            <p>
+                Gram Sanvardhan is an NGO dedicated to rural development, education, environmental conservation, and community empowerment in Maharashtra.
+
+            </p>
+
+            <div class="project-buttons">
+                <a href="https://gramsanvardhan.org" class="btn">Live Demo</a>
+                <a href="#" class="btn">GitHub</a>
+            </div>
+
         </div>
+
+    </section>
+
+    <section id="certifications">
+
+        <h2>Certifications</h2>
+
+        <div class="certificate-container">
+
+        <div class="certificate-card">
+            <img src="Diploma In Web Development Certification.jpeg" alt="Certificate 1" hight="200" width="200">
+            <h3>Certificate 1</h3>
+            <a href="Diploma In Web Development Certification.jpeg" target="_blank" class="read-more">Read More</a>
+        </div>
+
+        <div class="certificate-card">
+            <img src="Web Development Certification.jpeg" alt="Certificate 1" hight="200" width="200">
+            <h3>Certificate 2</h3>
+            <a href="Web Development Certification.jpeg" target="_blank" class="read-more">Read More</a>
+        </div>
+
+        <div class="certificate-card">
+            <img src="Full Stack Development Certification.jpeg" alt="Certificate 1" hight="200" width="200">
+            <h3>Certificate 3</h3>
+            <a href="Full Stack Development Certification.jpeg" target="_blank" class="read-more">Read More</a>
+        </div>
+
+        <div class="certificate-card">
+            <img src="Internship Completions letter.jpeg" alt="Certificate 1" hight="200" width="200">
+            <h3>Certificate 3</h3>
+            <a href="Internship Completions letter.jpeg" target="_blank" class="read-more">Read More</a>
+        </div>
+
+        <div class="certificate-card">
+            <img src="Poster Presentation Certification.jpeg" alt="Certificate 1" hight="200" width="200">
+            <h3>Certificate 3</h3>
+            <a href="Poster Presentation Certification.jpeg" target="_blank" class="read-more">Read More</a>
+        </div>
+
+
+
+
     </section>
 
     <section id="contact">
-    <h2>Contact</h2>
 
-    <p>
-        Email:
-        <a href="mailto:poojarmhatre17@gmail.com">
-            poojarmhatre17@gmail.com
-        </a>
-    </p>
+        <h2>Contact</h2>
 
-    <p>
-        GitHub:
-        <a href="https://github.com/PoojaRMhatre" target="_blank">
-            github.com/PoojaRMhatre
-        </a>
-    </p>
+        <div class="card">
 
-    <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/pooja-mhatre17" target="_blank">
-            linkedin.com/in/pooja-mhatre17
-        </a>
-    </p>
-</section>
+            <p>
+                Email:
+                <a href="mailto:poojarmhatre17@gmail.com">
+                    poojarmhatre17@gmail.com
+                </a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/PoojaRMhatre" target="_blank">
+                    github.com/PoojaRMhatre
+                </a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/pooja-mhatre17"
+                    target="_blank">
+                    linkedin.com/in/pooja-mhatre17
+                </a>
+            </p>
+
+            <div class="contact-icons">
+
+                <a href="mailto:poojarmhatre17@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a href="https://github.com/PoojaRMhatre" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/pooja-mhatre17"
+                    target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
 
     <footer>
-        <p>© 2026 Pooja Mhatre. All Rights Reserved.</p>
+        <p>© 2026 Pooja Mhatre | All Rights Reserved</p>
     </footer>
 
 </body>
